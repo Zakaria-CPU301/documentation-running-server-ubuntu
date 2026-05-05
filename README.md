@@ -3,10 +3,11 @@
 
 ### SERVER
 1. Open Ubuntu
-2. sudo su (admin)
-3. su warlang (employee)
-4. service nginx start (starting server)
-5. ll, l, ls (check file and folder)
-6. cd /var/www/html (enter project)
-7. nano index.html (program internal file)
-8. program as usually
+2. ssh root@100.100.0.0 -p 2022 (listener)
+3. sudo su (admin)
+4. su warlang (employee)
+5. service nginx start (starting server)
+6. ll, l, ls (check file and folder)
+7. cd /var/www/html (enter project)
+8. nano index.html (program internal file)
+9. program as usually
